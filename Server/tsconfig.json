@@ -1,0 +1,26 @@
+{
+	"ts-node": {
+		"require": ["tsconfig-paths/register"]
+	},
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@type/*": ["./Types/*"],
+			"@service/*": ["./Service/*"],
+			"@public/*": ["./public/*"],
+			"@model/*": ["./Model/*"],
+			"@dtos/*": ["./DTOS/*"],
+			"@database/*": ["./Database/*"],
+			"@controller/*": ["./Controller/*"],
+			"@api/*": ["./API/*"],
+			"@exeptions/*": ["./Exeptions/*"],
+			"@middlware/*": ["./Middlware/*"]
+		},
+		"target": "es5",
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true
+	},
+	"include": ["*.d.ts", "./*", "twin.d.ts", "**/*.ts", "**/*.tsx"],
+	"exclude": ["node_modules"]
+}

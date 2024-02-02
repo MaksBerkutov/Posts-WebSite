@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@type/*": ["./Types/*"],
+			"@service/*": ["./Service/*"],
+			"@public/*": ["./public/*"],
+			"@model/*": ["./Model/*"],
+			"@dtos/*": ["./DTOS/*"],
+			"@database/*": ["./Database/*"],
+			"@api/*": ["./API/*"],
+			"@controller": ["./Controller/*"]
+		}
+	}
+}
